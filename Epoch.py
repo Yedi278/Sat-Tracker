@@ -35,7 +35,7 @@ def epochToUTC(epoch):
     second_section = float('.'+second_section)
 
     # Extract the year, month, and day from the first section of the epoch time
-    year = first_section // 1000
+    year = first_section // 1000 + 2000
     month, days = days_to_month(first_section % 1000, year % 4 == 0)
     
     # Calculate the hours, minutes, seconds, and milliseconds from the second section of the epoch time
