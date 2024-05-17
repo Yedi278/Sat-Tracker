@@ -1,4 +1,4 @@
-from python.Epoch import*
+from Epoch import*
 
 class TLE:
     

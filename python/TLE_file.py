@@ -1,4 +1,4 @@
-from python.TLE_ import TLE
+from TLE_ import TLE
 
 def TLE_data_to_dict(name, line1, line2):
     TLE_data = dict()

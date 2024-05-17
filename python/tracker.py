@@ -2,8 +2,8 @@ import numpy as np
 
 import matplotlib.pyplot as plt
 plt.style.use('dark_background')
-from python.TLE_ import*
-from python.TLE_file import*
+from TLE_ import*
+from TLE_file import*
 
 try:
     from sgp4.api import Satrec
